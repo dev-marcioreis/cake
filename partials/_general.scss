@@ -6,7 +6,6 @@ html {
 body {
     color: $white-color;
     background: $gradiente-5;
-    height: 300rem;
 
     &::-webkit-scrollbar {
         width: .6rem;
@@ -22,7 +21,7 @@ body {
     padding: 3rem 0;
 }
 .container {
-    padding: 0 10rem;
+    padding: 0 5rem;
     margin: 0 auto;
 }
 .flex {

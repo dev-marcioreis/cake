@@ -9,7 +9,7 @@
     z-index: 99;
 
     .container {
-        padding: 0 7rem;
+        padding: 0 2rem;
 
         .navbar {
             align-items: center;
@@ -51,7 +51,7 @@
                         height: 100%;
                         font-family: $font-logo;
                         font-size: 1.7rem;
-                        color: $bg-4;
+                        color: $white-color;
                         font-weight: 600;
                         display: flex;
                         align-items: center;
@@ -72,6 +72,7 @@
                         }
 
                         &:hover {
+                            color: $bg-3;
 
                             &::before {
                                 height: 4rem;
@@ -144,7 +145,7 @@
                 .navbar__btn {
                     display: inline-block;
                     font-size: 2rem;
-                    color: $bg-4;
+                    color: $white-color;
                 }
 
                 #navbar__btnClose {
