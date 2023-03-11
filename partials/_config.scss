@@ -1,0 +1,60 @@
+/*==========Google Fonts==========*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/*==========Reset==========*/
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*==========Root==========*/
+$red-color: hsl(349, 98%, 58%);
+$salmon-color: hsl(11, 77%, 66%);
+$green-color: hsl(168, 11%, 56%);
+$blue-color: hsl(202, 74%, 52%);
+$dark-color: hsl(0, 0%, 13%);
+$white-color: hsl(0, 0%, 100%);
+$transparent-color: hsla(0, 0%, 0%, 0);
+$text-color: hsla(0, 0%, 13%, 0.384);
+
+$bg-1: hsl(232, 35%, 84%);
+$bg-2: hsl(23, 100%, 82%);
+$bg-3: hsl(322, 85%, 16%);
+
+$transition-1: all 400ms ease;
+$transition-2: transform 0.2s ease-in-out;
+
+$transform-1: translate(-10%, 10%);
+$transform-2: translate(15px, 0) rotate(45deg);
+
+$border-radius: min(5vw, 50px);
+
+$gap: min(3vw, 30px);
+
+$shadow: 0 1px 4px hsla(0, 0%, 0%, 0.2);
+$shadow-1: 0px 1px 3px hsla(0, 0%, 0%, 0.5);
+$shadow-2: 0px 3px 6px hsla(0, 0%, 0%, 0.4);
+$shadow-3: -5px 8px 10px hsla(0, 0%, 0%, 0.2);
+$shadow-4: -2px 2px 3px hsla(0, 0%, 0%, 0.2);
+
+$gradiente-1: linear-gradient(180deg, hsl(357, 78%, 63%) 0%, hsl(353, 92%, 70%) 100%);
+$gradiente-2: linear-gradient(90deg, hsl(355, 37%, 88%) 0%, hsl(25, 76%, 90%) 100%); 
+$gradiente-3: linear-gradient(90deg, hsl(268, 77%, 76%) 0%, hsl(281, 88%, 84%) 100%); 
+$gradiente-4: linear-gradient(90deg, hsl(157, 72%, 66%) 0%, hsl(154, 100%, 81%) 100%); 
+$gradiente-5: linear-gradient(90deg, hsl(16, 98%, 83%) 0%, hsl(49, 91%, 91%) 100%); 
+$gradiente-6: linear-gradient(90deg, hsl(352, 98%, 66%) 0%, hsl(7, 100%, 75%) 100%); 
+$gradiente-7: linear-gradient(90deg, hsl(34, 94%, 56%) 0%, hsl(44, 100%, 66%) 100%); 
+$gradiente-8: linear-gradient(90deg, #d57589 0%, #ffc7a3 100%); 
+
+
+
+
+
+
+
