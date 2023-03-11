@@ -1,6 +1,8 @@
 /*==========Google Fonts==========*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
 /*==========Reset==========*/
 *, *::before, *::after {
     margin: 0;
@@ -23,9 +25,13 @@ $white-color: hsl(0, 0%, 100%);
 $transparent-color: hsla(0, 0%, 0%, 0);
 $text-color: hsla(0, 0%, 13%, 0.384);
 
+$font-logo: 'Dancing Script', cursive;
+
 $bg-1: hsl(232, 35%, 84%);
 $bg-2: hsl(23, 100%, 82%);
 $bg-3: hsl(322, 85%, 16%);
+$bg-4: hsl(347, 100%, 71%);
+$bg-5: hsl(49, 91%, 91%);
 
 $transition-1: all 400ms ease;
 $transition-2: transform 0.2s ease-in-out;
