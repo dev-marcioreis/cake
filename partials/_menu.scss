@@ -68,12 +68,14 @@
                         height: 100%;
                         border-radius: 1rem;
                         box-shadow: $shadow-3;
+                        transition: $transition-1;
                         z-index: 1;
 
                         img {
                             width: 100%;
                             flex: 1;
                             object-fit: contain;
+                            transition: $transition-1;
                         }
 
                         .label {
@@ -143,6 +145,18 @@
 
                     &:nth-child(8) .item {
                         background-image: $gradiente-8;
+                    }
+
+                    &:hover {
+
+                        .item {
+                            transform: translateY(-10px);
+                            box-shadow: none;
+                            
+                            img {
+                                transform: scale(1.4);
+                            }
+                        }
                     }
                 }
             }
