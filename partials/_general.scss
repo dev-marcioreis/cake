@@ -6,6 +6,7 @@ html {
 body {
     color: $white-color;
     background: $gradiente-5;
+    overflow-x: hidden;
 
     &::-webkit-scrollbar {
         width: .6rem;
