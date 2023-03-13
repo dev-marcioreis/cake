@@ -1,5 +1,6 @@
 .footer {
     box-shadow: $shadow;
+    margin-block-start: 7rem;
 
     .container {
 
@@ -27,19 +28,12 @@
                         color: $bg-4;
                     }
                 }
-
-                .footer__description {
-                    font-family: $font-logo;
-                    color: $brown-color;
-                    font-size: 1.7rem;
-                    letter-spacing: 1px;
-                }
             }
 
             .footer__content {
                 align-items: flex-start;
                 justify-content: center;
-                gap: 10rem;
+                gap: 7rem;
 
                 div {
 
@@ -93,4 +87,52 @@
             }
         }
     }
+}
+
+
+/*==========Media Query==========*/
+@media (max-width: 1024px) {
+    .footer {
+        margin-block-start: 5rem;
+    
+        .container {
+    
+            .footer__container {
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+    
+                .footer__content {
+                    gap: 5rem;
+                }
+            }
+        }
+    }
+
+}
+
+
+/*==========Media Query==========*/
+@media (max-width: 768px) {
+    .footer {
+        
+        .container {
+    
+            .footer__container {
+                align-items: flex-start;
+                flex-direction: column;
+    
+                .footer__content {
+                    align-items: flex-start;
+                    flex-direction: column;
+                    gap: 2rem;
+    
+                    .footer__social {
+                        gap: 1.5rem;
+                    }
+                }
+            }
+        }
+    }
+
 }
