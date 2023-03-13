@@ -1,5 +1,4 @@
 .menu {
-    margin-block-start: 6rem;
 
     .container {
         display: flex;
@@ -11,10 +10,6 @@
             width: 1300px;
             height: auto;
             padding: 2rem;
-            border-radius: min(5vw, 50px);
-            background: $bg-2;
-            background: $gradiente-8;
-            box-shadow: $shadow-3;
 
             &::before {
                 content: '';
@@ -26,7 +21,7 @@
                 width: 107%;
                 height: 107%;
                 transform: translate(-10%, 10%);
-                filter: blur(50px);
+                filter: blur(100px);
                 mix-blend-mode: overlay;
                 z-index: -1;
             }
@@ -45,6 +40,7 @@
                 .menu__text {
                     font-weight: 200;
                     font-style: italic;
+                    color: $dark-color;
                 }
             }
 
@@ -71,16 +67,27 @@
                         transition: $transition-1;
                         z-index: 1;
 
-                        img {
-                            width: 100%;
-                            flex: 1;
-                            object-fit: contain;
-                            transition: $transition-1;
+                        .item__image {
+                            position: relative;
+                            width: 15rem;
+                            height: 15rem;
+
+                            img {
+                                object-fit: contain;
+                                transition: $transition-1;
+                                transform: scale(1.4);
+                            }
                         }
 
                         .label {
                             padding: 1rem;
                             text-transform: capitalize;
+
+                            small {
+                                font-family: $font-logo;
+                                font-size: 2rem;
+                                color: $white-color;
+                            }
                         }
                     }
 
@@ -128,7 +135,7 @@
                     }
 
                     &:nth-child(4) .item {
-                        background-image: $gradiente-4;
+                        background-image: $gradiente-7;
                     }
 
                     &:nth-child(5) .item {
@@ -140,7 +147,7 @@
                     }
 
                     &:nth-child(7) .item {
-                        background-image: $gradiente-7;
+                        background-image: $gradiente-4;
                     }
 
                     &:nth-child(8) .item {
@@ -150,11 +157,11 @@
                     &:hover {
 
                         .item {
-                            transform: translateY(-10px);
+                            transform: translateY(-5px);
                             box-shadow: none;
                             
                             img {
-                                transform: scale(1.4);
+                                transform: scale(1.2);
                             }
                         }
                     }
@@ -199,7 +206,7 @@
             .menu__container {
     
                 &::before {
-                    top: -20rem;
+                    top: -15rem;
                     left: 1rem;
                     width: 100%;
                     height: 100%;
