@@ -1,0 +1,96 @@
+.footer {
+    box-shadow: $shadow;
+
+    .container {
+
+        .footer__container {
+            align-items: flex-start;
+            justify-content: space-between;
+
+            .footer__top {
+                margin-block-end: 2rem;
+
+                .logo {
+                    align-items: center;
+                    justify-content: left;
+                    gap: .5rem;
+    
+                    .logo__image {
+                        width: 3rem;
+                        filter: brightness(1.2);
+                    }
+    
+                    .logo__name {
+                        font-family: $font-logo;
+                        font-size: 2rem;
+                        text-transform: capitalize;
+                        color: $bg-4;
+                    }
+                }
+
+                .footer__description {
+                    font-family: $font-logo;
+                    color: $brown-color;
+                    font-size: 1.7rem;
+                    letter-spacing: 1px;
+                }
+            }
+
+            .footer__content {
+                align-items: flex-start;
+                justify-content: center;
+                gap: 10rem;
+
+                div {
+
+                    .footer__title {
+                        font-family: $font-logo;
+                        color: $brown-color;
+                        font-size: 1.5rem;
+                        letter-spacing: 2px;
+                        margin-block-end: 1rem;
+                    }
+
+                    .footer__links {
+                        display: flex;
+                        align-items: flex-start;
+                        justify-content: center;
+                        flex-direction: column;
+                        gap: .7rem;
+
+                        li {
+
+                            a {
+                                color: $brown-color;
+                                font-weight: 200;
+                                transition: $transition-1;
+
+                                &:hover {
+                                    color: $bg-4;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .footer__social {
+                    align-items: center;
+                    gap: 1.2rem;
+
+                    li {
+
+                        a {
+                            font-size: 1.5rem;
+                            color: $brown-color;
+                            transition: $transition-1;
+
+                            &:hover {
+                                color: $bg-4;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
