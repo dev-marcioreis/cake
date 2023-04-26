@@ -7,7 +7,7 @@ Desenvolvido utilizando efeitos em SASS.
 
 ## 🚀 Finalizado.
 
-## 📋 Técnologias
+## 📋 Tecnologias
 SASS
 
 ## ✒️ Autor
